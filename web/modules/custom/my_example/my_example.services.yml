@@ -1,0 +1,5 @@
+services:
+  my_example.twig_extension_adobe_launch:
+    class: Drupal\my_example\TwigExtension\AdobeLaunchExtension
+    tags:
+      - { name: twig.extension }

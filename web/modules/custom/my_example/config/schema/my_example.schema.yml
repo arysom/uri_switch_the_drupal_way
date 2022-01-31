@@ -1,0 +1,7 @@
+my_example.settings:
+  type: config_entity
+  label: 'My example adobe launch config'
+  mapping:
+    adobe_launch_tool:
+      type: string
+      label: 'Launch tool file url'
